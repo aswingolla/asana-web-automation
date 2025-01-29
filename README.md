@@ -57,6 +57,15 @@ Headed mode - `npm run test-dev-headed`
 
 4. Go to Test results and click on each individual test to go through steps passed, screenshots, video and trace for more details.
 
+# 🎯 Sample Test Report
+
+## Test Case Log
+![Test case Log](./images/Asana_Test_Case_Log.png)
+
+## Test Suite Log
+![Test Suite](./images/Asana_Test_Suite_Results.png)
+
+
 # 🎞 Playwright Documentation
 
 For more information on Playwright features, go to https://playwright.dev/docs/intro
