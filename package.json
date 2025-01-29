@@ -1,9 +1,13 @@
 {
   "name": "asana-web-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a web automation project for Asana",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test-dev": "ENVFILE=env/dev.env npx playwright test",
+    "test-dev-debug": "ENVFILE=env/dev.env npx playwright test --debug",
+    "test-dev-headed": "ENVFILE=env/dev.env npx playwright test --headed"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aswingolla/asana-web-automation.git"
